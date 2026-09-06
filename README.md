@@ -1,61 +1,37 @@
 # Python Practice 🐍
-
 My Python coding journey — practice problems and beginner projects as I build
 my software development skills. U.S. Navy veteran transitioning into tech,
 learning by doing, one project at a time.
-
 ## 📁 Projects
-
 | Project | What it does |
 |---------|-------------|
 | `band_name_generator.py` | Generates a band name from your city and pet's name (input + f-strings) |
 | `tip_calculator.py` | Calculates each person's share of a bill, including tip, split among a group |
 | `treasure_island.py` | Branching text adventure built from a flowchart — every choice leads to a different ending |
 | `rock_paper_scissors.py` | Classic game vs. the computer — random choice, ASCII art, and win/lose/tie logic |
-| `password_generator.py` | Generates customizable, randomized passwords with specified counts of letters, numbers, and symbols |
-
+| `password_generator.py` | Builds a strong, randomized password from user-chosen counts of letters, numbers, and symbols |
 ## 🎯 Goal
-
 Building strong Python fundamentals through hands-on projects and problem-solving,
 working toward a software engineering career. Every project is my own work,
 focused on understanding — not just copying.
-
 ## 🛠️ How to run
-
 Each file is standalone Python. Run with:
-
 ```bash
 python3 filename.py
-
-📚 What I'm learning
-Variables, input/output, formatted prompts (\n), and f-strings
-
-Data types (int, float, string) and conversions
-
-Math operations and logic
-
-Control flow: if / elif / else and nested conditions
-
-Combining conditions with and / or for multi-case logic
-
-Repetition and iteration: for loops and range()
-
-Lists and indexing (accessing, appending, and shuffling items)
-
-Rebuilding strings from lists using "".join()
-
-Built-in modules: random (choice(), shuffle()) and string (ascii_lowercase, ascii_uppercase, digits)
-
-Functions, early return, and the if __name__ == "__main__": entry-point guard
-
-String methods for cleaning user input (.strip(), .lower())
-
-Translating a flowchart or requirement set into working code
-
-Consistent style: double-quoted strings, single quotes nested inside
-
-Version control with Git — meaningful commits, one change at a time
-
-Building small, complete programs from scratch
-
-Learning by doing. More projects added as I build them. 🚀
+```
+## 📚 What I'm learning
+- Variables, input/output, and f-strings
+- Data types (int, float, string) and conversions
+- Math operations and logic
+- Control flow: `if` / `elif` / `else` and nested conditions
+- Combining conditions with `and` / `or` for multi-case logic
+- Lists, indexing, and list building with `.append()`
+- Loops: `for` with `range()`, and iterating over collections
+- The `random` and `string` modules (random choice, shuffle, character sets)
+- Functions, early `return`, and the `if __name__ == "__main__":` entry-point guard
+- String methods for cleaning and joining (`.strip()`, `.lower()`, `.join()`)
+- Translating a flowchart into working code
+- Consistent style: double-quoted strings, single quotes nested inside
+- Version control with Git — meaningful commits, one change at a time
+- Building small, complete programs from scratch
+*Learning by doing. More projects added as I build them.* 🚀
