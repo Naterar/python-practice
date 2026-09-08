@@ -10,6 +10,7 @@ learning by doing, one project at a time.
 | `treasure_island.py` | Branching text adventure built from a flowchart — every choice leads to a different ending |
 | `rock_paper_scissors.py` | Classic game vs. the computer — random choice, ASCII art, and win/lose/tie logic |
 | `password_generator.py` | Builds a strong, randomized password from user-chosen counts of letters, numbers, and symbols |
+| `hangman.py` | Classic word-guessing game — pulls a random word, tracks guesses with a live blank display, counts lives with ASCII stages, and handles win/lose logic |
 ## 🎯 Goal
 Building strong Python fundamentals through hands-on projects and problem-solving,
 working toward a software engineering career. Every project is my own work,
@@ -19,6 +20,7 @@ Each file is standalone Python. Run with:
 ```bash
 python3 filename.py
 ```
+Note: `hangman.py` uses the `random-word` package — install it with `pip install random-word`.
 ## 📚 What I'm learning
 - Variables, input/output, and f-strings
 - Data types (int, float, string) and conversions
@@ -26,8 +28,9 @@ python3 filename.py
 - Control flow: `if` / `elif` / `else` and nested conditions
 - Combining conditions with `and` / `or` for multi-case logic
 - Lists, indexing, and list building with `.append()`
-- Loops: `for` with `range()`, and iterating over collections
+- Loops: `for` with `range()`, `while` loops, and iterating over collections
 - The `random` and `string` modules (random choice, shuffle, character sets)
+- Installing and using external packages with `pip` (e.g., `random-word`)
 - Functions, early `return`, and the `if __name__ == "__main__":` entry-point guard
 - String methods for cleaning and joining (`.strip()`, `.lower()`, `.join()`)
 - Translating a flowchart into working code
