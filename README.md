@@ -11,6 +11,8 @@ learning by doing, one project at a time.
 | `rock_paper_scissors.py` | Classic game vs. the computer — random choice, ASCII art, and win/lose/tie logic |
 | `password_generator.py` | Builds a strong, randomized password from user-chosen counts of letters, numbers, and symbols |
 | `hangman.py` | Classic word-guessing game — pulls a random word, tracks guesses with a live blank display, counts lives with ASCII stages, and handles win/lose logic |
+| `f1_race_name_generator.py` | Generates an F1 driver nickname from your name, team, and nationality (input + f-strings) |
+| `pilot_callsign.py` | Creates a pilot callsign from your name and aircraft type — aviation-themed (input + string concatenation) |
 ## 🎯 Goal
 Building strong Python fundamentals through hands-on projects and problem-solving,
 working toward a software engineering career. Every project is my own work,
