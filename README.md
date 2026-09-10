@@ -13,6 +13,9 @@ learning by doing, one project at a time.
 | `hangman.py` | Classic word-guessing game — pulls a random word, tracks guesses with a live blank display, counts lives with ASCII stages, and handles win/lose logic |
 | `f1_race_name_generator.py` | Generates an F1 driver nickname from your name, team, and nationality (input + f-strings) |
 | `pilot_callsign.py` | Creates a pilot callsign from your name and aircraft type — aviation-themed (input + string concatenation) |
+| `f1_pitstop_fuel_calculator.py` | Calculates fuel needed to finish a race from laps remaining, fuel burn per lap, and current fuel (input + math + f-strings) |
+| `weight_and_balance_calculator.py` | Computes aircraft ramp weight from empty weight, fuel (converted to pounds), passengers, and cargo — aviation-themed (input + math + f-strings) |
+
 ## 🎯 Goal
 Building strong Python fundamentals through hands-on projects and problem-solving,
 working toward a software engineering career. Every project is my own work,
