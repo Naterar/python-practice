@@ -17,6 +17,7 @@ learning by doing, one project at a time.
 | `weight_and_balance_calculator.py` | Computes aircraft ramp weight from empty weight, fuel (converted to pounds), passengers, and cargo — aviation-themed (input + math + f-strings) |
 | `f1_tyre_strategy_advisor.py` | Recommends an F1 pit/tyre strategy from track temp, laps remaining, and tyre age (if/elif/else + and/or logic) |
 | `weather_minimums_checker.py` | Aviation go/no-go checker evaluating ceiling, visibility, and crosswind against flight minimums (conditional logic) |
+| `oop_practice.py` | Object-oriented programming practice — classes, attributes, inheritance, multiple inheritance, special methods (__len__), @property, @staticmethod |
 
 ## 🎯 Goal
 Building strong Python fundamentals through hands-on projects and problem-solving,
