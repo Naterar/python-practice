@@ -6,7 +6,7 @@ crosswind = float(input('Enter the crosswind in knots: '))
 if ceiling < 1000 or visibility < 3:
     print('Poor weather condition. Decision: NO-GO')
 elif crosswind > 25:
-    print('Crosswind winds too high; over the aircraft limitation. Decision: NO-GO')
+    print('Crosswind too high; over the aircraft limitation. Decision: NO-GO')
 elif ceiling < 3000:
     print('IFR pilot rating required. CAUTION - IFR CONDITIONS')
 else:
