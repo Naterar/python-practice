@@ -35,9 +35,10 @@ Applying 15 years of aviation quality assurance to software: each test
 document covers functional coverage, boundary value analysis, evaluation
 order, and negative input testing, with a defect log for findings.
 
-| Document                                                                 | Covers                                                                      | Cases |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------- | ----- |
-| [`TC_weather_minimums_checker.md`](tests/TC_weather_minimums_checker.md) | Go/No-Go decision logic — all branches, threshold boundaries, invalid input | 25    |
+| Document                                                                 | Covers                                                                                                           | Cases |
+| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ----- |
+| [`TC_weather_minimums_checker.md`](tests/TC_weather_minimums_checker.md) | Go/No-Go decision logic — all branches, threshold boundaries, invalid input                                      | 25    |
+| [`TC_f1_tyre_strategy_advisor.md`](tests/TC_f1_tyre_strategy_advisor.md) | Tyre strategy decision logic — compound `and` truth table, threshold boundaries, evaluation order, invalid input | 29    |
 
 Automated unit tests (`pytest`) to follow once program logic is refactored
 into functions that return values rather than printing directly.
@@ -58,7 +59,7 @@ python3 filename.py
 **Control flow** — `if`/`elif`/`else`, nested conditions, `and`/`or` for multi-case logic
 **Collections** — lists, indexing, `.append()`, iteration
 **Loops** — `for` with `range()`, `while` loops, accumulator and running-best patterns
-**Functions** — definition and calls, parameters, early `return`, the `if __name__ == "__main__":` entry-point guard
+**Functions** — definition and calls, `return`, the `if __name__ == "__main__":` entry-point guard
 **OOP** — classes, inheritance, multiple inheritance, dunder methods, decorators
 **Modules** — `random`, `string`, installing external packages with `pip`
 **Strings** — `.strip()`, `.lower()`, `.join()` for cleaning and formatting
