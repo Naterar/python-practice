@@ -31,14 +31,20 @@ built through aviation and motorsport domain problems. U.S. Navy veteran with
 
 Manual test documentation lives in [`tests/`](tests/).
 
-Applying 15 years of aviation quality assurance to software: each test
-document covers functional coverage, boundary value analysis, evaluation
-order, and negative input testing, with a defect log for findings.
+Applying 15 years of aviation quality assurance to software: each document
+covers functional and computational coverage, boundary value analysis,
+compound-condition truth tables, evaluation order, and negative input
+testing, with a severity-rated defect log for findings.
 
-| Document                                                                 | Covers                                                                                                           | Cases |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- | ----- |
-| [`TC_weather_minimums_checker.md`](tests/TC_weather_minimums_checker.md) | Go/No-Go decision logic — all branches, threshold boundaries, invalid input                                      | 25    |
-| [`TC_f1_tyre_strategy_advisor.md`](tests/TC_f1_tyre_strategy_advisor.md) | Tyre strategy decision logic — compound `and` truth table, threshold boundaries, evaluation order, invalid input | 29    |
+**Defects found to date:** 6 (2 High, 2 Medium, 2 Low) — including an
+unreachable code branch caught in requirements review before a single
+test was executed.
+
+| Document                                                                           | Covers                                                                                                           | Cases |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----- |
+| [`TC_weather_minimums_checker.md`](tests/TC_weather_minimums_checker.md)           | Go/No-Go decision logic — all branches, threshold boundaries, invalid input                                      | 25    |
+| [`TC_f1_tyre_strategy_advisor.md`](tests/TC_f1_tyre_strategy_advisor.md)           | Tyre strategy decision logic — compound `and` truth table, threshold boundaries, evaluation order, invalid input | 29    |
+| [`TC_weight_and_balance_calculator.md`](tests/TC_weight_and_balance_calculator.md) | Computational accuracy — hand-verified arithmetic, component isolation, float precision, invalid input           | 23    |
 
 Automated unit tests (`pytest`) to follow once program logic is refactored
 into functions that return values rather than printing directly.
@@ -63,7 +69,7 @@ python3 filename.py
 **OOP** — classes, inheritance, multiple inheritance, dunder methods, decorators
 **Modules** — `random`, `string`, installing external packages with `pip`
 **Strings** — `.strip()`, `.lower()`, `.join()` for cleaning and formatting
-**Quality assurance** — manual test case design, boundary value analysis, negative testing, defect logging
+**Quality assurance** — manual test case design, boundary value analysis, equivalence partitioning, negative testing, severity-rated defect logging
 **Practice** — translating flowcharts into code, consistent style, meaningful Git commits
 
 ---
