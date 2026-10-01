@@ -51,10 +51,16 @@ into functions that return values rather than printing directly.
 
 ## 🛠️ How to run
 
-Each file is standalone Python:
+Most files are standalone Python:
 
 ```bash
 python3 filename.py
+```
+
+`weather_minimums_checker.py` lives in `src/` and runs as:
+
+```bash
+python3 src/weather_minimums_checker.py
 ```
 
 `hangman.py` requires the `random-word` package: `pip install random-word`
